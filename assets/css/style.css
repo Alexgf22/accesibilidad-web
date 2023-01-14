@@ -14,7 +14,7 @@
     display: none;
 } 
 
-.titulo-principal {
+.container-fluid .titulo-principal {
     text-align: center;
     color: black;
     font-size: 30px;
