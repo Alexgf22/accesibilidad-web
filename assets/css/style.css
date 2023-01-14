@@ -279,7 +279,7 @@ footer.container-fluid{
 }
 .creditos a{
     color: #ffffff ;
-    text-decoration: underline dashed;
+    text-decoration: underline dotted;
 }
 .creditos a:hover{
     color: #007bff ;
