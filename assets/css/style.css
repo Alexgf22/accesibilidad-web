@@ -72,7 +72,10 @@ header{
 
 .cabecera-top > .lista-lenguajes {
     list-style-type: none;
-    display: inline-block;
+}
+
+.lista-lenguajes > li {
+    display: inline;
 }
 
 header > nav,
