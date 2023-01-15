@@ -266,7 +266,8 @@ footer form{
     justify-content: center;
     max-width: 300px;
     text-align: center;
-    padding-top: 20px;
+    margin: 0 auto;
+    padding-top: 40px;
 }
 
 footer .navbar{
