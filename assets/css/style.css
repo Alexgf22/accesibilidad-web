@@ -244,11 +244,11 @@ footer .rrss{
     padding-bottom: 20px;
 }
 
-.rrss {
+.rrss > ul {
     list-style-type: none;
 }
 
-.rrss > li {
+.rrss ul li {
     display: inline;
 }
 
@@ -266,8 +266,6 @@ footer form{
     justify-content: center;
     max-width: 300px;
     text-align: center;
-    margin: 0 auto;
-    padding-top: 40px;
 }
 
 footer .navbar{
