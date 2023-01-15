@@ -243,6 +243,15 @@ footer .rrss{
     border-bottom: solid thin #E5E7E9 ;
     padding-bottom: 20px;
 }
+
+.rrss {
+    list-style-type: none;
+}
+
+.rrss > li {
+    display: inline;
+}
+
 footer .pie a.logo{
     border-top: solid thin #E5E7E9 ;
     padding-top: 20px;
