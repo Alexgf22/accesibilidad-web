@@ -321,6 +321,11 @@ footer.container-fluid{
     font-size: 12px;
 }
 
+div label a {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
 .blockquote-footer{
     padding-top: 0px;
     background: transparent;
