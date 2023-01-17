@@ -70,8 +70,10 @@ header{
     max-width: 200px;
 }
 
+
 .cabecera-top > .lista-lenguajes {
     list-style-type: none;
+    padding-top: 7px;
 }
 
 .lista-lenguajes > li {
