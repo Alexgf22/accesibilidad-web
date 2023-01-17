@@ -216,6 +216,11 @@ main{
     margin-top: 10px;
 }
 
+.dos-columnas p a {
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
 
 tbody tr:nth-child(even) { background: #E8F8F5 }
 /* PIE DE PÁGINA  */
