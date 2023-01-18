@@ -227,6 +227,10 @@ main{
     margin-top: 10px;
 }
 
+a > strong {
+    font-size: 20px;
+}
+
 form .form__titulo-donacion {
     font-size: 26px;
 }
