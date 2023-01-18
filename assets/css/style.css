@@ -231,8 +231,8 @@ form .form__titulo-donacion {
     font-size: 26px;
 }
 
-.form fieldset button {
-    margin-top: 8px;
+form fieldset button {
+    margin-top: 10px;
 }
 
 .dos-columnas p a {
