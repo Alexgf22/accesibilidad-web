@@ -75,16 +75,13 @@
                         <h2 class="form__titulo-donacion">Cantidad del donativo (EUR)</h2>
 
                         <div class="form-check-inline">
+                            <label class="form-check-label" for="unaVez">Una única vez</label>
                             <input class="form-check-input" type="radio" name="unaVez" id="unaVez" value="option1" checked>
-                            <label class="form-check-label" for="unaVez">
-                                Una única vez
-                            </label>
+                            
                         </div>
                         <div class="form-check-inline">
+                            <label class="form-check-label" for="mensual">Mensual</label>
                             <input class="form-check-input" type="radio" name="mensual" id="mensual" value="option2">
-                            <label class="form-check-label" for="mensual">
-                                Mensual
-                            </label>
                         </div>
                         <div class="form-group">
                             <label for="exampleFormControlSelect2">Importe</label>
@@ -99,57 +96,57 @@
                             </select>
                         </div>
                         <div class="form-group">
-                            <label>Otra cantidad</label>
-                            <input type="password" class="form-control" placeholder="Escriba otro importe">
+                            <label for="contraseña">Otra cantidad</label>
+                            <input type="password" class="form-control" id="contraseña" placeholder="Escriba otro importe">
                         </div>
                         <hr>
                         <h3>Datos de facturación</h3>
                         <div class="form-group">
-                            <label>Email</label>
-                            <input type="email" class="form-control" placeholder="Escribe tu email">
+                            <label for="correo">Email</label>
+                            <input type="email" class="form-control" id="correo" placeholder="Escribe tu email">
                             <small class="form-text text-muted">Nunca compartiremos su correo electrónico con nadie.</small>
                         </div>
                         <div class="form-group">
-                            <label>Nombre </label>
-                            <input type="text" class="form-control" placeholder="Escribe tu nombre ">
+                            <label for="name">Nombre </label>
+                            <input type="text" class="form-control" id="name" placeholder="Escribe tu nombre ">
                         </div>
                         <div class="form-group">
-                            <label>Apellidos </label>
-                            <input type="text" class="form-control" placeholder="Tu apellidos">
+                            <label for="surname">Apellidos </label>
+                            <input type="text" class="form-control" id="surname" placeholder="Tu apellidos">
                         </div>
 
                         <div class="form-group">
-                            <label>Dirección postal </label>
-                            <input type="text" class="form-control" placeholder="Tu dirección postal">
+                            <label for="postal code">Dirección postal </label>
+                            <input type="text" class="form-control" id="postal code" placeholder="Tu dirección postal">
                             <small class="form-text text-muted">Nunca compartiremos su dirección con nadie.</small>
                         </div>
 
                         <div class="form-group">
-                            <label>Teléfono </label>
-                            <input type="tel" class="form-control" placeholder="Teléfono">
+                            <label for="phone">Teléfono </label>
+                            <input type="tel" class="form-control" id="phone" placeholder="Teléfono">
                             <small class="form-text text-muted">Nunca compartiremos su teléfono con nadie más.</small>
                         </div>
                         <hr>
                         <h3>Datos de pago</h3>
                         <div class="form-group">
-                            <label>Número tarjeta</label>
-                            <input type="number" class="form-control" placeholder="Número de tarjeta">
+                            <label for="card number">Número tarjeta</label>
+                            <input type="number" class="form-control" id="card number" placeholder="Número de tarjeta">
                         </div>
                         <div class="form-group">
-                            <label>Data de expiración</label>
-                            <input type="text" class="form-control" placeholder="MM/AA">
+                            <label for="fecha">Data de expiración</label>
+                            <input type="text" class="form-control" id="fecha" placeholder="MM/AA">
                         </div>
                         <div class="form-group">
-                            <label>Código de verificación</label>
-                            <input type="number" class="form-control" placeholder="CCV">
+                            <label for="verification code">Código de verificación</label>
+                            <input type="number" class="form-control" id="verification code" placeholder="CCV">
                         </div>
                         <div class="custom-control custom-checkbox">
-                            <input type="checkbox" class="custom-control-input">
-                            <label class="custom-control-label">Hago este donativo de manera anónima</label>
+                            <label class="custom-control-label" for="casilla verificacion">Hago este donativo de manera anónima</label>
+                            <input type="checkbox" id="casilla verificacion" class="custom-control-input">
                         </div>
                         <div class="custom-control custom-checkbox">
-                            <input type="checkbox" class="custom-control-input">
-                            <label class="custom-control-label">Acepto expresamente la <a href="#">política de protección de datos</a></label>
+                            <label class="custom-control-label" for="aceptar politica">Acepto expresamente la <a href="#">política de protección de datos</a></label>
+                            <input type="checkbox" id="aceptar politica" class="custom-control-input">
                         </div>
                         <button type="submit" class="btn btn-secondary">Enviar</button>
                     </form>
@@ -179,11 +176,13 @@
             <form>
                 <h4>Suscríbete a nuestra Newsletter</h4>
                 <div class="form-group">
-                    <input type="email" class="form-control" placeholder="Enter email">
+                    <label for="el correo">Email:</label>
+                    <input type="email" class="form-control" id="el correo" placeholder="Enter email">
                 </div>
                 <div class="form-group form-check">
-                    <input type="checkbox" class="form-check-input">
-                    <label class="form-check-label">Acepto la <a href="#">Política de privacidad </a></label>
+                    <label class="form-check-label" for="casillaCheckbox">
+                    <input type="checkbox" id="casillaCheckbox" class="form-check-input" required>
+                    Acepto la <a href="#">Política de privacidad </a></label>
                 </div>
                 <button type="submit" class="btn btn-secondary">Registrarme</button>
             </form>
@@ -201,7 +200,7 @@
 
         </div>
         <div class="creditos">
-            <h6>Créditos</h6>
+            <h5>Créditos</h5>
             <p>© LAGaEC. Imágenes de las obras artísticas de dominio público,
                 <strong><a href="https://www.metmuseum.org/art/collection/search#!?searchField=All&showOnly=openAccess&sortBy=relevance&offset=0&pageSize=0">The Metropolitan Museum</a></strong>.
                 Fotografías, <strong><a href="https://unsplash.com">Unsplash</a></strong>
