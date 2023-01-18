@@ -25,7 +25,7 @@
             </a>
             <nav class="navbar navbar-expand-lg navbar-light bg-verde-claro">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup">
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>Botón toggle
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <ul class="navbar-nav">
@@ -50,14 +50,14 @@
             <section class="detalle-cabecera">
                 <div class="container">
                     <h1>Impresiones</h1>
-                    <h2>Mirar a Degas: la captura del instante</h2>43
+                    <h2 class="container__titulo-cuadro">Mirar a Degas: la captura del instante</h2>43
                 </div>
             </section>
 
             <section id="proximas" class="actividades container">
                 <div class="fila align-izquierda">
                     <div class="tres-columnas">
-                        <h4>Del 2 de diciembre de 2018 hasta el 17 de abril de 2019</h4>
+                        <h3>Del 2 de diciembre de 2018 hasta el 17 de abril de 2019</h3>
                         <button class="btn btn-secondary">Comprar entradas</button>
                     </div>
                     <div class="dos-tres-columnas">
@@ -135,12 +135,13 @@
                 <form>
                     <h4>Suscríbete a nuestra Newsletter</h4>
                     <div class="form-group">
-                        <label for="gmail"></label>
+                        <label for="gmail">Email</label>
                         <input type="email" class="form-control" id="gmail" placeholder="Enter email">
                     </div>
                     <div class="form-group form-check">
-                        <input type="checkbox" class="form-check-input">
-                        <label>Acepto la <a href="#">Política de privacidad </a></label>
+                        <label class="form-check-label" for="casillaCheckbox">
+                        <input type="checkbox" id="casillaCheckbox" class="form-check-input" required>
+                        Acepto la <a href="#">Política de privacidad </a></label>
                     </div>
                     <button type="submit" class="btn btn-secondary">Registrarme</button>
                 </form>
@@ -157,7 +158,7 @@
                 </nav>
             </div>
             <div class="creditos">
-                <h6>Créditos</h6>
+                <h5>Créditos</h5>
                 <p>© LAGaEC. Imágenes de las obras artísticas de dominio público,
                     <strong><a href="https://www.metmuseum.org/art/collection/search#!?searchField=All&showOnly=openAccess&sortBy=relevance&offset=0&pageSize=0">The Metropolitan Museum</a></strong>.
                     Fotografías, <strong><a href="https://unsplash.com">Unsplash</a></strong>

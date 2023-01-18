@@ -129,6 +129,10 @@ main{
     padding-bottom: 30px;
 }
 
+.container-fluid .detalle-cabecera .container .container__titulo-cuadro {
+    background-color: #5A6268;
+}
+
 .fila{
     display: flex;
     flex-wrap: wrap;
