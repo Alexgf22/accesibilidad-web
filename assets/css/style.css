@@ -76,6 +76,8 @@ header{
     padding-top: 7px;
 }
 
+
+
 .lista-lenguajes > li {
     display: inline;
 }
@@ -206,8 +208,8 @@ main{
 
 .donar-cabecera h1,
 .detalle-cabecera  h1{
-    color: #fff;
-    background: #48C9B0;
+    background-color: black;
+    color: white;
 }
 
 .detalle-cabecera  h2, .detalle-cabecera span{
