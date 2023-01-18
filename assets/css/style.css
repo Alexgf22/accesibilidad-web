@@ -220,6 +220,10 @@ main{
     margin-top: 10px;
 }
 
+form .form__titulo-donacion {
+    font-size: 70%;
+}
+
 .dos-columnas p a {
     font-weight: bolder;
     text-decoration: underline;
