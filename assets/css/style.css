@@ -131,6 +131,9 @@ main{
 
 .container-fluid .detalle-cabecera .container .container__titulo-cuadro {
     background-color: #5A6268;
+    width: fit-content;
+    margin-top: 40px;
+    margin-right: 500px;
 }
 
 .fila{
