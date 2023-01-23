@@ -240,6 +240,10 @@ a > strong {
     font-size: 19px;
 }
 
+div > .enlace__donar {
+    top: 0;
+}
+
 form .form__titulo-donacion {
     font-size: 26px;
 }
